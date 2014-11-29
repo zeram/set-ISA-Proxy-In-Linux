@@ -29,10 +29,10 @@ proxy_string=$proxy_string"read -es password \n"
 proxy_string=$proxy_string"export http_proxy=\"http://[AUTHDOMAINHERE]\$ds"
 proxy_string=$proxy_string"\$username:\$password@[ENTERYOURPTOXYIPHERE]:8080/\" \n"
 
-proxy_string=$proxy_string"export https_proxy=\"http://sastudents\$ds"
+proxy_string=$proxy_string"export https_proxy=\"http://[AUTHDOMAINHERE]\$ds"
 proxy_string=$proxy_string"\$username:\$password@[ENTERYOURPTOXYIPHERE]:8080/\" \n"
 
-proxy_string=$proxy_string"export ftp_proxy=\"http://sastudents\$ds"
+proxy_string=$proxy_string"export ftp_proxy=\"http://[AUTHDOMAINHERE]\$ds"
 proxy_string=$proxy_string"\$username:\$password@[ENTERYOURPTOXYIPHERE]:8080/\" \n}"
 
 
